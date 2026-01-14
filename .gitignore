@@ -4,10 +4,8 @@ __pycache__/
 .DS_Store
 *.pyc
 
-# Data files
-*.csv
+# Backup data directory
+csv_backups/
 
-# Output directories
-categorized_videos/
-categorized_by_playlist/
-keyword_categorized/
+# Keep root clean from data files
+*.csv
